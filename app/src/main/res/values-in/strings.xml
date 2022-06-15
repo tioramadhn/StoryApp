@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_error_msg">Format email salah</string>
+    <string name="email_hint">Masukkan email anda</string>
+    <string name="password_hint">Masukkan password anda</string>
+    <string name="login_error_msg">Email/Kata sandi anda salah</string>
+    <string name="server_error_msg">Kesalahan pada server</string>
+    <string name="name_hint">Masukkan nama anda</string>
+    <string name="email_error_msg2">Email telah digunakan</string>
+    <string name="succes_regist_msg">Anda berhasil daftar. Sudah tidak sabar untuk pansos ya?</string>
+    <string name="next">Lanjut</string>
+    <string name="upload_error">Silakan masukkan berkas gambar terlebih dahulu</string>
+    <string name="description_error">Masukkan deskrips anda</string>
+    <string name="upload_succes">Cerita berhasil dibuat</string>
+    <string name="permission">Tidak mendapatkan permission</string>
+    <string name="choose_photo">Pilih foto</string>
+    <string name="login_success_msg">Berhasil login</string>
+    <string name="appwidget_text">Widget cerita</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget aplikasi</string>
+    <string name="empty_text">Mohon untuk login dahulu :D</string>
+    <string name="configure">Konfigurasi</string>
+    <string name="retry">Coba lagi</string>
+    <string name="maps">Peta</string>
+    <string name="not_found">Data tidak ditemukan</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="no_data">Oops.. terjadi kesalahan</string>
+</resources>

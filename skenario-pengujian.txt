@@ -1,0 +1,97 @@
+Skenario testing pada kelas userviewmodel
+
+	1. Ketika user berhasil login
+		- Memastikan data tidak null
+		- Mengembalikan Status.Success
+		
+	2. Ketika User tidak berhasil login
+		- Mengembalikann Status.Error
+
+	3. Ketika berhasil memuat data story.
+		- Memastikan data tidak null.
+		- Memastikan jumlah data sesuai dengan yang diharapkan.
+
+	4. Ketika Registrasi user berhasil
+		- Mengembalikasn Status.Success
+		
+	5. Ketika Registrasi user tidak berhasil
+		- Mengembalikan Status.Error
+		
+	6. Ketika Menambahkan Story Berhasil
+		- Mengembalikan Status.Success
+		
+	7. Ketika Menambahkan Story tidak berhasil
+		- Mengembalikan Status.Error
+
+	8. Ketika Get Story by Location berhasil
+		- Mengembalikan Status.Success
+		- Memastikan data tidak null
+		- Memastikan jumlah data sesuai dengan yang di harapkan
+
+	9. Ketika Get Story by Location tidak berhasil
+		- Mengembalikan Status.Error
+
+	
+Skenario testing pada kelas UserRepository
+
+	1. Ketika registrasi user valid dari network
+		- Memastikan response tidak null
+		- Memastikan error false
+		
+	2. Ketika registrasi user tidak valid dari network
+		- Memastikan response tidak null
+		- Memastikan error true
+
+	3. Ketika login user valid dari network
+		- Memastikan response tidak null
+		- Memastikan error false
+
+	4. Ketika login user tidak valid dari network
+		- Memastikan response tidak null
+		- Memastikan error true
+
+	5. Ketika get Story dari network
+		- Memastikan response tidak null
+		- Memastikan jumlah data sesuai dengan yang diharapkan
+		
+	6. Ketika get story by location dari network
+		- Memastikan response tidak null
+		- emastikan jumlah data sesuai dengan yang diharapkan
+		
+	7. Ketika add new story valid dari network 
+		- Memastikan response tidak null
+		- Memastikan error is false
+		
+	8. Ketika add new story tidak valid dari network 
+		- Memastikan response tidak null
+		- Memastikan error is true
+		
+Skenario Testing pada StoryDao
+	
+	1. Ketika insert story  
+		- Memastikan data tidak null pada db
+		- Memastikan jumlah data sesuai dengan yang diharapkan
+		
+	2. Ketika delete story  
+		- Memastikan data tidak ada lagi pada db
+		
+Skenario Integration Test pada main activity
+	1. Ketika Berhasil Memuat data List Story
+		- Memastikan Recycle View Tampil
+		- Memastikan Data sesuai dengan yang diharapkan
+		
+	2. Ketika Gagal Memuat data List Story 
+		- Memastikan text view error tampil
+		- Memastikan data string sesuai dengan yang diharapkan
+	
+		
+
+
+
+
+
+
+
+
+
+
